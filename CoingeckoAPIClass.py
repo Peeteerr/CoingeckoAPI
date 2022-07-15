@@ -1,15 +1,12 @@
 import json
-
 import pip
 import requests
 from utils import *
 import python_utils
 import retry
 import urllib3
-
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-
 
 class CoinGeckoAPI:
     __API_URL_BASE = 'https://api.coingecko.com/api/v3/'
